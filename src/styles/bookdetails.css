@@ -1,0 +1,214 @@
+.book-details{
+  font-family: "Poppins", serif;
+}
+
+.main-container{
+  margin: 25px 2px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.book-img-container{
+  padding: 10px;
+}
+
+.description{
+  padding: 10px;
+}
+
+.bookTitle{
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+}
+
+.bookAuthor{
+  margin: 2px 0;
+}
+
+.details {
+  margin-top: 15px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-template-rows: repeat(3, auto); /* 3 rows */
+  gap: 20px; /* Space between grid items */
+}
+
+.details div{
+  padding: 2px;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.spec{
+  display: flex;
+  flex-direction: column;
+  width: 125px;
+  margin: 0 0 0 15px;
+}
+
+.cart-container{
+  padding: 30px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 5%;
+}
+
+.quantity, .addToCart, .wishList, .buyNow{
+  margin: 10px;
+}
+
+.cartPrice{
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.stock{
+  margin: 10px;
+}
+
+.quantity{
+  display: flex;
+}
+
+.plus, .minus, .number{
+  padding: 10px 35px;
+  margin-bottom: 15px;
+}
+
+.minus{
+  border-left: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  cursor: pointer;
+}
+
+.number{
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.plus{
+  border-right: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  cursor: pointer;
+}
+
+.addToCart, .wishList, .buyNow{
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.addToCart{
+  background-color: orange;
+}
+
+.wishList{
+  border: 3px solid rgb(6, 35, 96);
+}
+
+.buyNow{
+  background-color: rgb(208, 194, 208);
+  border: 1px solid rgb(170, 181, 192);
+}
+
+/* .book-type-container{
+  margin: 30px 50px 50px 50px;
+}
+
+.book-types{
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.paperback, .hardcover, .ebook, .audiobook{
+  border: 1px solid rgb(199, 162, 162);
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 15px 30px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.paperback p, .hardcover p, .ebook p, .audiobook p{
+  margin: 0;
+}
+
+.type-of-book{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.isAvailable{
+  margin: 10px 0;
+  font-size: 15px;
+  color: green;
+}
+
+.book-type-price{
+  font-size: 20px;
+} */
+
+.details-container{
+  display: flex;
+  margin: 40px;
+  gap: 50px;
+}
+
+.aboutTheBook{
+  padding: 30px;
+  background-color: rgb(255, 233, 233);
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px rgb(121, 121, 121);
+  flex: 1;
+}
+
+.aboutTheAuthor{
+  padding: 30px;
+  background-color: rgb(255, 233, 233);
+  border-radius: 50px;
+  box-shadow: 1px 1px 3px rgb(121, 121, 121);
+  flex: 1;
+}
+
+.aboutTitle{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.authorTitle{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.about-the-book{
+  text-align: justify;
+}
+
+.about-the-author{
+  text-align: justify;
+}
+
+.author-part{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.author-part img{
+  border-radius: 50%;
+}

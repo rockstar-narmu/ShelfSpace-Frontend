@@ -1,0 +1,16 @@
+.filters{
+  font-family: "Poppins", serif;
+  padding: 10px;
+  margin-left: 10px;
+  border-right: 1px solid rgb(206, 205, 205);
+}
+
+.customer-review, .pricing, .discount, .book-format-type{
+  margin: 15px 10px;
+}
+
+.customer-review label, .pricing label, .discount label, .book-format-type label{
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+}

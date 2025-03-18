@@ -1,0 +1,79 @@
+.lamp-title{
+  font-family: "Patrick Hand SC", serif;
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.lamp-punch-line{
+  font-family: "Patrick Hand SC", serif;
+  text-align: center; 
+  margin: 0;
+  font-size: 25px;
+}
+
+.lamp-grid-container{
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns */
+  grid-template-rows: repeat(1, auto);
+  gap: 30px;
+  font-family: "Poppins", serif;
+}
+
+.tablet-lamp, .arm-clip-on-lamp, .rechargeable-lamp, .neck-lamp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 40px 0;
+}
+
+.lamp-details{
+  margin-top: 25px;
+}
+
+.lamp-details p{
+  margin-left: 15px;
+}
+
+.lamp-details div{
+  min-width: 250px;
+}
+
+.lamp-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.lamp-availability{
+  margin: 0;
+  color: rgb(0, 109, 0);
+}
+
+.lamp-price{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(254, 83, 83);
+  margin-top: 10px;
+}
+
+.lamp-add-to-cart{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgb(233, 233, 121);
+  border-radius: 25px;
+}
+
+.lamp-buy-now{
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 0, 82);
+  margin-top: 10px;
+}

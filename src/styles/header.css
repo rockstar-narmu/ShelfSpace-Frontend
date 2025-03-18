@@ -1,0 +1,25 @@
+body{
+  background-color: #FCF8F5;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  display: flex;
+  font-family: "Quicksand", serif;
+  align-items: center;
+  font-size: 18px;
+}
+
+.prime{
+  margin-right: 550px;
+}
+
+.social-media{
+  display: flex;
+  width: 300px;
+  align-items: center;
+  justify-content: space-around;
+  margin: auto;
+}

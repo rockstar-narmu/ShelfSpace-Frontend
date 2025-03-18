@@ -1,0 +1,44 @@
+.merch-container{
+  font-family: "Raleway", serif;
+  margin: 75px 0 0 0;
+}
+
+.merch-title{
+  text-align: center;
+}
+
+.merch-title p{
+  margin: 0;
+}
+
+.only-books{
+  font-size: 25px;
+}
+
+.some-merch{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.merch-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 85px;
+  text-align: center;
+  margin: 50px;
+  padding-bottom: 50px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.133);
+}
+
+.merch-icon-container p {
+  font-weight: bold;
+}
+
+.merch-icon-container img{
+  transition: 0.5s ease-in-out;
+}
+
+.merch-icon-container img:hover{
+  transform: scale(1.2);
+}

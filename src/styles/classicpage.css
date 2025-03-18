@@ -1,0 +1,73 @@
+.classicpage{
+  font-family: "Quicksand", serif;
+}
+
+.classicHeader{
+  font-family: "Playfair Display", serif;
+  font-size: 52px;
+  margin: 10px 0 15px 0;
+  text-align: center;
+  color: #c9433e;
+}
+
+.classicBooks{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  margin: 2px; 
+}
+
+.book-link{
+  text-decoration: none;
+  color: black;
+}
+
+.bookContainer{
+  border: 1px solid rgb(137, 137, 137);
+  margin: 15px 10px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bookContainer:hover {
+  transform: scale(1.05);
+}
+
+.top p{
+  margin-left: 10px;
+}
+
+.img-container{
+  width: 275px;
+  height: 325px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.bookname{
+  font-size: 22px;
+  line-height: 20px;
+  height: 40px;
+  width: 265px;
+  margin: 10px 0;
+}
+
+.author{
+  font-size: 20px;
+  margin: 10px 0;
+  color: rgba(0, 0, 0, 0.792);
+}
+
+.price{
+  font-size: 22px;
+  margin: 5px 0 0 10px;
+  font-weight: bold;
+  color: #d9534f;
+}
+
+.delivery{
+  font-size: 20px;
+  margin: 5px 0 15px 10px;
+  color: #3f3f3f;
+}

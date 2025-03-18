@@ -1,0 +1,80 @@
+.highlighter-title{
+  font-family: "Patrick Hand SC", serif;
+  text-align: center;
+  margin: 0;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.highlighter-punch-line{
+  font-family: "Patrick Hand SC", serif;
+  text-align: center; 
+  margin: 0;
+  font-size: 25px;
+}
+
+.highlighter-grid-container{
+  margin: 20px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 3 columns */
+  grid-template-rows: repeat(2, auto);
+  gap: 30px;
+  font-family: "Poppins", serif;
+}
+
+.gel-highlighter, .pastel-highlighter, .glitter-highlighter, .erasable-highlighter, .pen-highlighter, .liquid-ink-highlighter, .tape-highlighter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid rgb(201, 201, 201);
+  padding: 40px 0;
+}
+
+.highlighter-details{
+  margin-top: 25px;
+}
+
+.highlighter-details p{
+  margin-left: 15px;
+}
+
+.highlighter-details div{
+  min-width: 250px;
+  max-width: 260px;
+}
+
+.highlighter-name{
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.highlighter-availability{
+  margin: 0;
+  color: rgb(0, 109, 0);
+}
+
+.highlighter-price{
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(254, 83, 83);
+  margin-top: 10px;
+}
+
+.highlighter-add-to-cart{
+  text-align: center;
+  padding: 10px 20px;
+  background-color: rgb(233, 233, 121);
+  border-radius: 25px;
+}
+
+.highlighter-buy-now{
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 3px solid rgb(0, 0, 82);
+  margin-top: 10px;
+}

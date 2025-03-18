@@ -1,0 +1,111 @@
+.footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Poppins", serif;
+  padding: 20px;
+  border-top-left-radius: 50px;
+  margin-top: 40px;
+}
+
+.dont-miss{
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  margin: 0;
+}
+
+.miss input::placeholder{
+  font-size: 16px;
+}
+
+.email, .phone{
+  width: 400px;
+  padding: 25px 20px;
+  border: none;
+  background-color: white;
+  margin: 0;
+} 
+
+.mail-box, .phone-box{
+  display: flex;
+  margin: 10px 0;
+}
+
+.mail-box img, .phone-box img{
+  padding: 12px;
+  background-color: white;
+}
+
+.subscribe{
+  width: 508px;
+  padding: 25px 20px;
+  border: none;
+  color: white;
+  background-color: black;
+  border: 3px solid rgb(255, 150, 44);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.footer-right{
+  color: white;
+}
+
+.other-links{
+  display: flex;
+}
+
+.company, .customer-service, .policies{
+  padding: 10px;
+  margin: 20px 30px;
+}
+
+.company p, .customer-service p, .policies p{
+  font-size: 23px; 
+  font-weight: 500;
+  margin: 0;
+
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.logo-media{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid white;
+}
+
+.footer-logo{
+  margin-left: 20px;
+}
+
+.medias p{
+  margin-bottom: 10px;
+}
+
+.media-icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.media-icons img{
+  margin: 0 10px;
+}
+
+.copyrights{
+  text-align: center;
+}
